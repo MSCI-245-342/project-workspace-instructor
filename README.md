@@ -212,7 +212,7 @@ Check that your app was successfully created by visiting it. When loaded, you sh
 
 1. After a successful build, you still need to migrate the db.  Go back to the top of the web page, and click on "More" and then "Run Console".  You can then do "rails db:migrate" to run the migrations.
 
-1.	Test your app by clicking "Open App".
+1.	Test your app by clicking "Open App".  Note: if you haven't added anything beyond the "Yay! You're on Rails!" to your app, the production version, which is the one deployed to Heroku, will not work yet.  
 
 1. Give your teammates access to the app via "Access", so that they too can deploy from GitHub to the app.
 
